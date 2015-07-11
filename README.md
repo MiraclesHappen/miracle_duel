@@ -1,36 +1,56 @@
-# Miracle Duel
+# Rules of Miracle Duel
 
 ## How to win
 
-+ This game requires pokers. The one who has the biggest number wins, the one who has the smallest loses.
++ This game requires pokers. When the game ends, the one has the biggest number wins, the one has the smallest loses.
 	+ King is the biggest. Ace is the smallest.
 	+ ♠️ spade > ♥️ heart > ♣️ club > ♦️ diamond (peach is bigger, black is bigger)
 
 
-## In a duel
+## In a duel, there are
 
-The are 2 roles in a duel:
+### 2 roles:
 
-1. The challenger 
-2. The challenged one
++ The *Challenger* 
++ The *Challenged One*
 
-Every duel consists of 3 steps:
+### 3 steps:
 
-1. Defend (Summarise -> Denied -> Smaller number)
-	1. The challenged one summarises the prior speak, which is delivered by the challenger.
-	2. If the challenger denies the summary, the one chooses a smaller number between his current one and a new one. 
-2. Attack (Advice -> Accepted -> Bigger number)
-	1. The challenged one can give some advices to or correct the mistakes in prior speak.
-	2. If the challenger accepts them, the one chooses a bigger number between his current one and a new one.
-3. Duel (Speack -> Next duel)
-	1. The one delivers a short speak about the subject, and asks someone for a new duel.
-	2. The duel can be refused if the challenged one has a bigger number, or it has to be taken.
-	3. If the duel is refused, it will be taken by the one has the smallest number among all.
+1. **Attack**
+
+  The *challenger* delivers a **speech** in few sentences. The maximum number of sentences he can use depends on his **magic points**. 
+
+1. **Defend**
+	
+	  By summering the **speech** delivered by the *challenger*, the *challenged one* prevents himself from **injured**.
+
+1. **Fightback**
+	
+	By correcting the mistakes or revising the sentences in the **speech**,
+	  + the *challenged one* prevents himself from being **injured**, if he has more points than the *challenger*.
+	  + the *challenged one* can get the *challenger* **injured**, if he has less points.
+
+After the 3 steps above, the one has more **health points** wins the duel. The winner gets **healed** and chooses someone (include himself) to start next duel.
+
+### By saying
+
++ **Health points**
+  
+  The number of points on one's poker card.
+
++ **Magic points**
+
+  The number of points related to one's poker card:
+    + 5 ≤ n ≤ 10, f(n) = n
+    + A ≤ n ≤ 4, f(n) = 10 - n
+    + J ≤ n ≤ K, f(n) = 10 - (n - 10)
+
++ **Injured** / **Healed**
+  
+  To keep the smaller / greater number between the current one and the one newly picked from top of the heap.
 
 ## Other rules
 
-+ The game can be started as long as there are 3 people, so it can be started on time.
-+ The earlier you come to the meeting, the bigger initial number you are gonna have.
-+ If one comes late, he takes the smallest number from someone. And the one who loses his number can pick a new number.
++ The earlier one joins the game, the greater initial health points he is going to have. 
++ If someone comes late, he gets the smallest points among all.
 + The host takes the red joker and starts the first duel. He doesn't lose.
-+ If some picks black joker, he can changes his number with anyone else (except the host). It is called a "miracle".
